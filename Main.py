@@ -1,6 +1,7 @@
 import cv2
 import os
 
+
 # Placeholder feature extract function, this should be replaced with the entire program logic
 def feature_extract(image):
     # CURRENT FUNCTIONALITY - OPEN INPUT IMAGES IN SUCCESSION
@@ -10,9 +11,9 @@ def feature_extract(image):
 
 
 # !!! Program execution begins here !!!
-inputPath = 'data\input'
+inputPath = 'data\\input'
 
-for fileDir in os.listdir(inputPath):
+for fileDir in os.listdir(inputPath):  # Loop thru all files in data/input directory, will only work in Windows machine
     fileDir = inputPath + '\\' + fileDir
     try:
         if fileDir.endswith(".BMP"):
