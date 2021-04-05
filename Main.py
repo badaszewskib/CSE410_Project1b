@@ -30,6 +30,7 @@ def orientation_map(img):
     print(oMap)
     cv2.blur(img, (2,2))
 
+# SRC: https://medium.com/@cuevas1208/fingerprint-algorithm-recognition-fd2ac0c6f5fc
 # SRC: https://www.rroij.com/open-access/fingerprint-image-enhancementalgorithm-and-performance-evaluation.pdf
 
 # Placeholder feature extract function, this should be replaced with the entire program logic
