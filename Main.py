@@ -54,7 +54,6 @@ def orientation_map(img):
     return oMap
 
 # SRC: https://medium.com/@cuevas1208/fingerprint-algorithm-recognition-fd2ac0c6f5fc
-# SRC: https://www.rroij.com/open-access/fingerprint-image-enhancementalgorithm-and-performance-evaluation.pdf
 
 # Placeholder feature extract function, this should be replaced with the entire program logic
 def feature_extract(img):
